@@ -45,9 +45,17 @@
 }
 
 
+/* .portfolio-modal .modal-dialog {
+
+  margin: auto;
+} */
 .portfolio-modal .modal-dialog {
   max-width: 60%;
   margin: auto;
+}
+
+.portfolio-modal #testSize {
+  max-width: 80%;
 }
 
 #seoImg, #flapperImg {
@@ -62,6 +70,14 @@ header.masthead {
   margin-bottom: 30px;
 }
 
+/* #testSize{
+    max-width: 60%;
+} */
+
+#testSize > .modal-body{
+  /* width: 90vw; */
+  /* margin: auto; */
+}
 
 h1, h2, h3, h4, h5, body {
   font-family: 'Lateef';
