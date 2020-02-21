@@ -133,4 +133,8 @@ p {
   .page-section {
     padding: 30px 0;
   }
+
+  .copy_image {
+    height: 27vh;
+  }
 }
