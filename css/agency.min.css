@@ -118,3 +118,28 @@ p {
 #work_line_break {
     line-height: 1;
 }
+@media (max-width: 768px) {
+  #et_image img{
+    height: 40vh;
+  }
+
+  #et_image {
+    text-align: center;
+    width: 100%;
+  }
+
+  .timeline-body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .timeline-body > p {
+    width: 70%;
+    text-align: center;
+  }
+
+  .timeline:before {
+    display: none;
+  }
+}
